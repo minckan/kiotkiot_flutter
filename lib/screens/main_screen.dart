@@ -11,6 +11,7 @@ class _MainScreenState extends State<MainScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.white,
         iconTheme: const IconThemeData(
@@ -30,17 +31,20 @@ class _MainScreenState extends State<MainScreen> {
         child: Padding(
           padding: EdgeInsets.symmetric(
             vertical: 15,
-            horizontal: 30,
+            horizontal: 15,
           ),
           child: Row(
             children: [
               Icon(Icons.gps_fixed),
               Text(
                 '강남구 논현1동',
-                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 24),
+                style: TextStyle(fontWeight: FontWeight.w800, fontSize: 20),
               ),
               Text(','),
-              Text('서울특별시')
+              Text(
+                '서울특별시',
+                style: TextStyle(fontSize: 16),
+              )
             ],
           ),
         ),

@@ -75,14 +75,14 @@ flutter:
   fonts:
     - family: NanumSquareNeo
       fonts:
-        - asset: assets/fonts/NanumSquareNeoTTF-aLt.ttf
+        - asset: assets/fonts/NanumSquareNeo-aLt.ttf
           weight: 200
-        - asset: assets/fonts/NanumSquareNeoTTF-bRg.ttf
-        - asset: assets/fonts/NanumSquareNeoTTF-cBd.ttf
+        - asset: assets/fonts/NanumSquareNeo-bRg.ttf
+        - asset: assets/fonts/NanumSquareNeo-cBd.ttf
           weight: 500
-        - asset: assets/fonts/NanumSquareNeoTTF-dEb.ttf
+        - asset: assets/fonts/NanumSquareNeo-dEb.ttf
           weight: 700
-        - asset: assets/fonts/NanumSquareNeoTTF-eHv.ttf
+        - asset: assets/fonts/NanumSquareNeo-eHv.ttf
           weight: 900
   #
   # For details regarding fonts from package dependencies,
